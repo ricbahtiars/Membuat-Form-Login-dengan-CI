@@ -79,7 +79,7 @@
 							if ( $cek_password <> $password ) {
 								echo"<script>alert('Kata Sandi Salah')</script>";
 							} else {
-								echo"<script>document,location.href='home.php'</script>";
+								echo"<script>document,location.href='user_login/index'</script>";
 							}
 
 						} else {
